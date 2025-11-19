@@ -15,7 +15,7 @@ An industrial-grade, redundancy-first data serialization format designed for max
 
 ## Abstract
 
-CUM (Catastrophically Uncompressed Markup) is a human- and machine-readable serialization format that prioritizes explicitness, deterministic repetition, and complete field-level traceability over traditional concerns such as brevity or parsing performance. Originally developed in November 2025 as a response to the token-efficiency limitations of JSON, TOON, GOON, and BONER, CUM establishes a new standard for environments where context-window abundance is guaranteed and compactness is considered an anti-pattern.
+CUM (Catastrophically Uncompressed Markup) is a human- and machine-readable serialization format that prioritizes explicitness, deterministic repetition, and complete field-level traceability over traditional concerns such as brevity or parsing performance. Originally developed in November 2025 as a response to the token-efficiency limitations of JSON, TOON, [GOON](https://x.com/princessakano/status/1990121421734080845), and [BONER](https://x.com/chaeynz_/status/1990145282882064790), CUM establishes a new standard for environments where context-window abundance is guaranteed and compactness is considered an anti-pattern.
 
 ## Design Principles
 
@@ -47,7 +47,7 @@ CUM.END;
 CUM.FOOTER=VALIDATED-CONFORMANT-INSTANCE;
 ```
 
-## Benchmarks (measured on Grok-4, 128k context, November 18 2025)
+## Benchmarks
 
 | Format | Input (3 products) | Output Size (characters) | Approx. Tokens (GPT-4o estimator) | Parse Time (Node.js) | Robustness Score¹ |
 |--------|--------------------|---------------------------|-----------------------------------|----------------------|-------------------|
