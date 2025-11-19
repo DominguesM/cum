@@ -1,0 +1,49 @@
+{
+  "name": "cum-encode",
+  "version": "4.20.69",
+  "description": "CUM – Catastrophically Uncompressed - An industrial-grade, redundancy-first data serialization format designed for maximum token utilization, auditability, and future-proofing in large-language-model ecosystems.",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "bin": {
+    "cum-encode": "./dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "node src/build.js",
+    "prepublishOnly": "npm run build",
+    "test": "node test/test.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominguesM/cum.git"
+  },
+  "keywords": [
+    "cum",
+    "encode",
+    "serialization",
+    "data-serialization",
+    "redundancy",
+    "catastrophically-uncompressed",
+    "llm",
+    "large-language-model",
+    "data-format",
+    "enterprise",
+    "robustness",
+    "explicit-redundancy",
+    "token-utilization",
+    "auditability",
+    "future-proofing"
+  ],
+  "author": "Maicon Domingues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DominguesM/cum/issues"
+  },
+  "homepage": "https://github.com/DominguesM/cum#readme"
+}
